@@ -56,7 +56,7 @@ char **buf_p = &(info->arg), *p;
 _putchar(BUF_FLUSH);
 r = input_buf(info, &buf, &len);
 if (r == -1) /* EOF */
-eturn (-1);
+return (-1);
 if (len)	/* we have commands left in the chain buffer */
 {
 j = i; /* init new iterator to current buf position */
